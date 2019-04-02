@@ -99,11 +99,6 @@ open class ChartSelectionDetail: NSObject
             return false
         }
         
-        if (object.dataSet !== _dataSet)
-        {
-            return false
-        }
-        
         return true
     }
 }
